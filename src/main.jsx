@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout'
-import NuevoCliente from './pages/NuevoCliente'
-import Index, {loader as clientesLoader} from './pages/Index'
+import NuevoCliente, { action as nuevoClienteAction } from './pages/NuevoCliente'
+import Index, { loader as clientesLoader } from './pages/Index'
+import ErrorPage from './components/ErrorPage'
 
 const router = createBrowserRouter([
   {
@@ -14,11 +15,15 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Index/>,
+        //Cargar datos loader
         loader: clientesLoader,
+        errorElement: <ErrorPage/>,
       },
       {
       path: '/clientes/nuevo',
-      element: <NuevoCliente/>
+      element: <NuevoCliente/>,
+      //Procesar un formulario
+      action: nuevoClienteAction, 
       }
     ]
   },
