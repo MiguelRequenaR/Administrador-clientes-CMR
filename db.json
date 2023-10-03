@@ -1,24 +1,18 @@
 {
   "clientes": [
     {
-      "id": 1,
-      "nombre": "Juan",
-      "telefono": 102013313,
+      "nombre": "Juan Actualizado",
+      "empresa": "Codigo Con Juan",
       "email": "juan@juan.com",
-      "empresa": "Codigo Con Juan"
+      "telefono": "102013313",
+      "notas": "Requiere",
+      "id": 1
     },
     {
       "id": 2,
       "nombre": "Karen",
       "telefono": 138198313,
       "email": "karen@juan.com",
-      "empresa": "Codigo Con Juan"
-    },
-    {
-      "id": 3,
-      "nombre": "Josue",
-      "telefono": 31983913,
-      "email": "josue@juan.com",
       "empresa": "Codigo Con Juan"
     },
     {
@@ -42,6 +36,14 @@
       "telefono": "+1 (714) 333-6308",
       "notas": "Facilis quisquam sun",
       "id": 6
+    },
+    {
+      "nombre": "Quibusdam molestiae ",
+      "empresa": "Odio rerum ad aliqui",
+      "email": "jenasiba@mailinator.com",
+      "telefono": "+1 (591) 757-6179",
+      "notas": "Cumque ipsum cumque",
+      "id": 7
     }
   ]
 }
