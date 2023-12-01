@@ -4,19 +4,19 @@ Administrador-clientes-CMR is a CRM client administration project built with Rea
 
 ## 🔍 Table of Contents
 
-* [💻 Stack](#stack)
+* [Stack](#stack)
 
-* [⚙️ Setting Up](#setting-up)
+* [Setting Up](#setting)
 
-* [🚀 Run Locally](#run-locally)
+* [Run Locally](#run-locally)
 
-* [🗺️ Roadmap](#roadmap)
+* [Roadmap](#roadmap)
 
-* [🙏 Acknowledgements](#acknowledgements)
+* [Acknowledgements](#acknowledgements)
 
-* [📜 Changelog](#changelog)
+* [Changelog](#changelog)
 
-## 💻 Stack
+## Stack
 
 - [react](https://reactjs.org/): A JavaScript library for building user interfaces.
 - [react-dom](https://reactjs.org/docs/react-dom.html): Provides DOM-specific methods that can be used at the top level of your app.
@@ -27,7 +27,7 @@ Administrador-clientes-CMR is a CRM client administration project built with Rea
 - [postcss](https://postcss.org/): A tool for transforming CSS with JavaScript plugins.
 - [tailwindcss](https://tailwindcss.com/): A utility-first CSS framework for rapidly building custom user interfaces.
 
-## ⚙️ Setting Up
+## ⚙️Setting
 
 #### Your Environment Variable
 
